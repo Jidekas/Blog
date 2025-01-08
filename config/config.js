@@ -7,5 +7,6 @@ if(error) console.error(error);
 
 module.exports = {
     port : envVars.PORT,
-    db_url: envVars.DB_URL
+    db_url: envVars.DB_URL,
+    env: envVars.NODE_ENV
 }
