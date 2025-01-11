@@ -1,0 +1,14 @@
+ GET /blog 200 281.074 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:08:49 GMT
+ GET /blog 200 256.666 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:09:56 GMT
+::1 - - [11/Jan/2025:09:11:45 +0000] "GET /blog HTTP/1.1" 200 193 "-" "PostmanRuntime/7.42.0"
+::1 -  GET /blog 200 324.112 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:13:52 GMT
+::1 -  GET /blog 200 228.062 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:14:37 GMT
+ GET /blog 200 242.939 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:14:59 GMT
+ GET /blog 200 256.659 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:42:08 GMT
+ GET /blog 200 256.659 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:42:08 GMT - error-mesage: -
+ GET /blogs 404 3.115 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:42:31 GMT
+ GET /blogs 404 3.115 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:42:31 GMT - error-mesage: Not Found
+ GET /blog 200 568.846 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:43:30 GMT
+ GET /blog 200 568.846 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:43:30 GMT - error-mesage: -
+ GET /blog 200 397.540 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:44:27 GMT
+ GET /blogs 404 2.481 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:44:49 GMT - error-mesage: Not Found

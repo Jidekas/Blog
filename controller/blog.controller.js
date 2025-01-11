@@ -3,7 +3,7 @@ const catchAsync = require('../utils/catchAsync');
 const createBlogShema = require('../validation/blog.validation')
 
 const getPosts = catchAsync(async(req, res)=>{
-    const blogs = await Blogg.find({});
+    const blogs = await Blog.find({});
     res.json(blogs);
 }) 
 

@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 const {env} = require('../config/config');
 const ApiError = require('../utils/ApiError');
-const {default: status} = require('http-status')
+const {default: status} = require('http-status');
+const config = require('../config/config');
+const logger = require('../config/logger')
 
 const errorConverter = (err, req, res, next) => {
     let error = err
@@ -17,12 +19,15 @@ const errorConverter = (err, req, res, next) => {
 
 const errorHandler = (err, req, res, next)=>{
     const {statusCode, message} = err;
-
     const response = {
         error: true,
         code: statusCode,
         message,
         ...(env==="development" && {stack: err.stack})
+    };
+    res.locals.errorMessage = message
+    if (config.env === "development"){
+        logger.error(err)
     }
     res.status(statusCode).send(response);
 };
