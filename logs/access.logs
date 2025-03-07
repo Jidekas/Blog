@@ -12,3 +12,20 @@
  GET /blog 200 568.846 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:43:30 GMT - error-mesage: -
  GET /blog 200 397.540 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:44:27 GMT
  GET /blogs 404 2.481 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 09:44:49 GMT - error-mesage: Not Found
+ GET /blog 200 293.404 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 10:03:58 GMT
+ GET /blog 500 18.203 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 12:16:26 GMT - error-mesage: blogService.getPosts is not a function
+ GET /blog 500 7.716 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 12:18:02 GMT - error-mesage: blogService.getPosts is not a function
+ GET /blog 200 8025.549 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 12:18:44 GMT
+ GET /blog 200 298.589 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 12:26:36 GMT
+ GET /blog 200 260.198 ms PostmanRuntime/7.42.0 Sat, 11 Jan 2025 12:33:14 GMT
+ POST /blog/up 404 48.106 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 01:48:07 GMT - error-mesage: Not Found
+ POST /blog/up 404 46.425 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 01:49:25 GMT - error-mesage: -
+ POST /blog/up 404 4.136 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 01:49:41 GMT - error-mesage: -
+ POST /blog/up 404 51.663 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 01:50:10 GMT - error-mesage: Not Found
+ POST /blog/up 404 73.489 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 12:57:04 GMT - error-mesage: Not Found
+ POST /blog 400 11.029 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 12:58:15 GMT - error-mesage: "body.title" is required
+ POST /blog 400 58.441 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 12:59:20 GMT - error-mesage: "body.title" is required
+ POST /blog 400 68.902 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 12:59:48 GMT - error-mesage: "body.title" is required
+ POST /blog 400 79.406 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 13:01:41 GMT - error-mesage: "body.title" is required
+ POST /blog 400 147.319 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 13:04:01 GMT - error-mesage: "body.title" is required
+ POST /blog 400 10.483 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 13:04:27 GMT - error-mesage: "body.title" must be a string

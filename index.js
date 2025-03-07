@@ -1,12 +1,12 @@
 const mongoose  = require('mongoose');
-const {port, db_url} = require('./config/config.js')
+const config = require('./config/config.js')
 const http = require('http')
 const app = require('./server')
 const logger = require('./config/logger.js')
 
 
 
-mongoose.connect(db_url)
+mongoose.connect(config.db_url)
 .then(()=>{
     logger.info("DB connected")
  })
@@ -17,8 +17,8 @@ mongoose.connect(db_url)
 
 
 const httpServer = http.createServer(app)
-const server = httpServer.listen(port, ()=>{
-    logger.info(`running on port ${port}`)
+const server = httpServer.listen(config.port, ()=>{
+    logger.info(`running on port ${config.port}`)
 })
 
 

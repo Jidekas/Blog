@@ -1,15 +1,17 @@
-const Blog = require('../model/blog.model');
+const {StatusCodes} = require('http-status-codes')
 const catchAsync = require('../utils/catchAsync');
-const createBlogShema = require('../validation/blog.validation')
+const {blogService} = require('../services')
 
 const getPosts = catchAsync(async(req, res)=>{
-    const blogs = await Blog.find({});
-    res.json(blogs);
+    const blogs = await blogService.getPosts()
+    res.status(StatusCodes.OK).json(blogs);
 }) 
 
 const createPost =  catchAsync(async (req, res)=> {
-    const blog = await Blog.create(req.body);
-    res.json({
+    const blog = await blogService.createPost(req.body)
+    res
+    .status(StatusCodes.CREATED)
+    .json({
         success: true,
         message: "Blog created succesfully",
         data: blog
