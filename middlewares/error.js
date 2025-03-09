@@ -9,7 +9,7 @@ const errorConverter = (err, req, res, next) => {
     let error = err
     if(!(error instanceof ApiError) ){
         const statusCode = error.statusCode || (error instanceof mongoose.Error 
-            ? status.INTERNAL_SERVER_ERROR 
+            ? status.BAD_REQUEST 
             : status.INTERNAL_SERVER_ERROR);
         const message = error.message || status[statusCode];
         error = new ApiError(statusCode, message, false, error.stack)

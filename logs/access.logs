@@ -29,3 +29,23 @@
  POST /blog 400 79.406 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 13:01:41 GMT - error-mesage: "body.title" is required
  POST /blog 400 147.319 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 13:04:01 GMT - error-mesage: "body.title" is required
  POST /blog 400 10.483 ms PostmanRuntime/7.43.0 Thu, 06 Mar 2025 13:04:27 GMT - error-mesage: "body.title" must be a string
+ POST /auth/register 201 85.119 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 03:52:00 GMT
+ POST /auth/register 500 66.787 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 03:53:44 GMT - error-mesage: Cannot read properties of undefined (reading 'create')
+ POST /auth/register 500 67.136 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:00:54 GMT - error-mesage: User validation failed: password: Path `password` (`123456`) is shorter than the minimum allowed length (8).
+ POST /auth/register 400 66.008 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:03:53 GMT - error-mesage: User validation failed: password: Path `password` (`123456`) is shorter than the minimum allowed length (8).
+ POST /auth/register 201 237.528 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:05:05 GMT
+ POST /auth/register 500 2329.364 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:07:47 GMT - error-mesage: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "jide@gmail.com" }
+ POST /auth/register 201 320.260 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:07:59 GMT
+ POST /auth/register 500 327.822 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:08:48 GMT - error-mesage: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "jide1@gmail.com" }
+ POST /auth/register 500 75.065 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:24:00 GMT - error-mesage: this.findOne is not a function
+ POST /auth/register 400 344.451 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:25:43 GMT - error-mesage: email is already taken
+ POST /auth/register 400 319.035 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:37:19 GMT - error-mesage: User validation failed: email: Invalid email, password: Password should contain at least one uppercase letter, one lowercase letter, one         number, and one special character
+ POST /auth/register 400 237.921 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:38:48 GMT - error-mesage: User validation failed: password: Password should contain at least one uppercase letter, one lowercase letter, one         number, and one special character
+ POST /auth/register 201 514.282 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 04:39:07 GMT
+ POST /auth/register 400 168.602 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:43:44 GMT - error-mesage: "body.email" must be a valid email
+ POST /auth/register 400 12.016 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:44:13 GMT - error-mesage: "body.email" must be a valid email
+ POST /auth/register 400 8.857 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:44:29 GMT - error-mesage: "body.password" failed custom validation because validator.isStrongPassword is not a function
+ POST /auth/register 400 3.427 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:45:06 GMT - error-mesage: "body.password" failed custom validation because validator.isStrongPassword is not a function
+ POST /auth/register 400 78.740 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:47:15 GMT - error-mesage: Password should at least be 8 characters with one uppercase and lowercase letter, number, and special character
+ POST /auth/register 400 290.996 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:47:43 GMT - error-mesage: email is already taken
+ POST /auth/register 201 504.128 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:47:54 GMT
