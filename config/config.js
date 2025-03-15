@@ -9,5 +9,10 @@ if(error) logger.error(error);
 module.exports = {
     port : envVars.PORT,
     db_url: envVars.DB_URL,
-    env: envVars.NODE_ENV
+    env: envVars.NODE_ENV,
+    jwt: {
+        secret:envVars.JWT_SECRET,
+        accessTokenExpirationMins: envVars.JWT_ACCESS_EXPIRATION_MINS,
+        refreshTokenExpirationDays: envVars.JWT_REFRESH_EXPIRATION_DAYS
+    }
 }

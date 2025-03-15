@@ -12,6 +12,16 @@ const createUser =  async (userBody)=> {
     return user
 }
 
+const getUserByEmail = async(email) => {
+    return await User.findOne({ email });
+}
+
+const getUserById = async(id) => {
+    return await User.findOne({_id:id});
+}
+
 module.exports = {
-    createUser
+    createUser,
+    getUserByEmail,
+    getUserById
 }

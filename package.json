@@ -11,14 +11,20 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@meanie/mongoose-to-json": "^2.6.0",
+    "bcryptjs": "^3.0.2",
+    "dayjs": "^1.11.13",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "http-status": "^2.1.0",
     "http-status-codes": "^2.3.0",
+    "install": "^0.13.0",
     "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.12.0",
     "mongoose": "^8.6.2",
     "morgan": "^1.10.0",
+    "npm": "^11.2.0",
     "validator": "^13.12.0",
     "winston": "^3.17.0"
   }

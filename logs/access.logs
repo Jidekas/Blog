@@ -49,3 +49,86 @@
  POST /auth/register 400 78.740 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:47:15 GMT - error-mesage: Password should at least be 8 characters with one uppercase and lowercase letter, number, and special character
  POST /auth/register 400 290.996 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:47:43 GMT - error-mesage: email is already taken
  POST /auth/register 201 504.128 ms PostmanRuntime/7.43.0 Sun, 09 Mar 2025 17:47:54 GMT
+ POST /auth/register 400 347.275 ms PostmanRuntime/7.43.0 Tue, 11 Mar 2025 04:49:32 GMT - error-mesage: email is already taken
+ POST /auth/register 201 650.177 ms PostmanRuntime/7.43.0 Tue, 11 Mar 2025 04:49:44 GMT
+ POST /auth/login 404 76.276 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:40:46 GMT - error-mesage: Not Found
+ POST /auth/login 500 82.413 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:41:32 GMT - error-mesage: Cannot convert undefined or null to object
+ POST /auth/login 500 7.815 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:42:17 GMT - error-mesage: Cannot convert undefined or null to object
+ POST /auth/login 404 53.739 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:54:03 GMT - error-mesage: Not Found
+ POST /auth/login 404 2.367 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:54:17 GMT - error-mesage: Not Found
+ POST /auth/login 200 62.809 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:54:35 GMT
+ POST /auth/login 200 64.771 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 04:58:59 GMT
+ POST /auth/login 200 51.553 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 05:01:26 GMT
+ POST /auth/login 200 30.760 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 05:03:16 GMT
+ POST /auth/login 200 12.311 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 05:03:17 GMT
+ POST /auth/register 400 461.323 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 05:05:00 GMT - error-mesage: email is already taken
+ POST /auth/login 200 9.636 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 05:05:26 GMT
+ POST /auth/login 200 63.912 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 05:08:07 GMT
+ POST /auth/login 200 69.238 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:37:54 GMT
+ POST /auth/login 200 62.598 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:40:22 GMT
+ POST /auth/login 200 63.234 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:41:16 GMT
+ POST /auth/login 200 53.718 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:42:28 GMT
+ POST /auth/login 200 58.979 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:43:10 GMT
+ POST /auth/login 200 56.389 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:44:27 GMT
+ POST /auth/login 200 58.839 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:50:20 GMT
+ POST /auth/login 200 59.176 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:51:07 GMT
+ POST /auth/login 200 59.566 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:51:57 GMT
+ POST /auth/login 401 328.474 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:52:42 GMT - error-mesage: Incorrect email or password
+ POST /auth/login 401 307.657 ms PostmanRuntime/7.43.0 Wed, 12 Mar 2025 08:53:37 GMT - error-mesage: Incorrect email or password
+ POST /auth/login 401 339.492 ms PostmanRuntime/7.43.0 Thu, 13 Mar 2025 05:24:28 GMT - error-mesage: Incorrect email or password
+ POST /auth/login 401 244.902 ms PostmanRuntime/7.43.0 Thu, 13 Mar 2025 05:24:34 GMT - error-mesage: Incorrect email or password
+ POST /auth/register 201 748.626 ms PostmanRuntime/7.43.0 Thu, 13 Mar 2025 05:25:02 GMT
+ POST /auth/login 200 323.055 ms PostmanRuntime/7.43.0 Thu, 13 Mar 2025 05:25:27 GMT
+ POST /auth/login 200 550.772 ms PostmanRuntime/7.43.0 Thu, 13 Mar 2025 05:36:04 GMT
+ POST /auth/login 200 480.362 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 10:53:08 GMT
+ POST /auth/login 200 440.575 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 10:57:34 GMT
+ POST /auth/login 500 594.027 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 11:35:43 GMT - error-mesage: generateAuthToken is not defined
+ POST /auth/login 200 355.242 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 11:37:10 GMT
+ POST /auth/login 200 466.069 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 11:38:07 GMT
+ POST /auth/refresh-token 401 80.720 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 13:58:46 GMT - error-mesage: please login
+ POST /auth/login 400 10013.882 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 13:59:06 GMT - error-mesage: Operation `users.findOne()` buffering timed out after 10000ms
+ POST /auth/login 200 385.158 ms PostmanRuntime/7.43.0 Fri, 14 Mar 2025 13:59:38 GMT
+ POST /auth/login 200 553.581 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:03:08 GMT
+ POST /auth/login 200 457.705 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:09:21 GMT
+ POST /auth/login 200 313.319 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:09:33 GMT
+ POST /auth/login 200 416.823 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:10:01 GMT
+ POST /auth/login 200 316.623 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:10:13 GMT
+ POST /auth/login 200 437.254 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:11:20 GMT
+ POST /auth/login 200 374.538 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:12:08 GMT
+ POST /auth/login 200 639.083 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:13:05 GMT
+ POST /auth/login 200 448.866 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:19:42 GMT
+ POST /auth/login 200 707.605 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:20:17 GMT
+ POST /auth/refresh-token 401 10.603 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:21:10 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 2.028 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:21:16 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 60.439 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:23:51 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 7.307 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:24:23 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 50.741 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:25:21 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 3.110 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:25:43 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 73.960 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:26:55 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 55.160 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:27:57 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 35.545 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:28:51 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 55.883 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:29:40 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 31.704 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:30:43 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 61.555 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:31:52 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 396.982 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:33:10 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 70.788 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:33:51 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 2294.188 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:34:22 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 317.885 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:35:44 GMT - error-mesage: refreshTokenDoc.deletOne is not a function
+ POST /auth/refresh-token 401 367.750 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:37:30 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 21.696 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:38:24 GMT - error-mesage: please login
+ POST /auth/refresh-token 401 53.100 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:38:54 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 51.190 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:48:02 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 70.386 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:49:22 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 132.212 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:50:53 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 68.870 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:54:11 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 411.314 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:54:57 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 357.273 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:55:50 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 406.261 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:56:03 GMT - error-mesage: Cannot read properties of undefined (reading 'verifyToken')
+ POST /auth/refresh-token 401 304.794 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 16:57:56 GMT - error-mesage: Cannot read properties of undefined (reading 'generateAuthTokens')
+ POST /auth/refresh-token 401 10130.475 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 21:45:29 GMT - error-mesage: Operation `users.findOne()` buffering timed out after 10000ms
+ POST /auth/refresh-token 401 1325.820 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 21:45:44 GMT - error-mesage: refreshTokenDoc.deletOne is not a function
+ POST /auth/refresh-token 200 1865.767 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 22:30:44 GMT
+ POST /auth/refresh-token 401 573.144 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 22:32:12 GMT - error-mesage: token not found
+ POST /auth/login 200 799.332 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 22:32:29 GMT
+ POST /auth/refresh-token 200 1156.006 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 22:32:58 GMT
+ POST /auth/refresh-token 200 1286.102 ms PostmanRuntime/7.43.0 Sat, 15 Mar 2025 22:33:20 GMT

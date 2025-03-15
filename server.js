@@ -11,7 +11,7 @@ app.use(morgan.successHandler)
 app.use(morgan.errorHandler)
 app.use(express.json());
 app.use('/',blogRoutes);
-app.use('/',authRoutes);
+app.use('/auth',authRoutes);
 app.use((req, res, next)=>{
     next(new ApiError(status.NOT_FOUND, status[status.NOT_FOUND]))
 })
